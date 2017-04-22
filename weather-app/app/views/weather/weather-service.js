@@ -6,8 +6,12 @@ app.factory('weatherService', ['$http', '$rootScope', function($http, $rootScope
 	}
 
 	function saveFavorite(state, city){
+		if(!state) return alert('É necessário ter um estado selecionado para favoritar!');
+		if(!city) return alert('É necessário ter uma cidade selecionada para favoritar!')
+
 		localStorage.setItem('favoriteState', state);
 		localStorage.setItem('favoriteCity', city);
+		alert('Favorito salvo com sucesso!');
 	}
 
 	function getFavorite(){
