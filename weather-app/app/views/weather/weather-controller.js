@@ -1,6 +1,5 @@
 app.controller('weatherController', ['$scope', '$timeout', 'weatherService', function($scope, $timeout, weatherService){
 
-	const self = this;
 	$scope.forecasts = [];
 	$scope.states = [];
 	$scope.cities = [];
@@ -11,10 +10,9 @@ app.controller('weatherController', ['$scope', '$timeout', 'weatherService', fun
 	$scope.currentState = '';
 	$scope.isLoading = false;
 
-
 	for(let state in states){
 		$scope.states.push(state);
-	}
+	};
 
 	$scope.updateCities = function(){
 		if($scope.currentState){
@@ -22,7 +20,7 @@ app.controller('weatherController', ['$scope', '$timeout', 'weatherService', fun
 		}else{
 			$scope.cities = [];
 		}
-	}
+	};
 
 	$scope.updateForecasts = function() {
 		$scope.forecasts = [];
@@ -37,7 +35,7 @@ app.controller('weatherController', ['$scope', '$timeout', 'weatherService', fun
 
 	$scope.saveFavorite = function(){
 		weatherService.saveFavorite($scope.currentState, $scope.currentCity);
-	}
+	};
 
 	$scope.$on('updateForecasts', function(event, data){
 		$scope.isLoading = false;
@@ -53,7 +51,7 @@ app.controller('weatherController', ['$scope', '$timeout', 'weatherService', fun
 		$scope.updateCities();
 		$scope.currentCity = favorite.city;
 		$scope.updateForecasts();
-	}
+	};
 
 	$scope.init();
 }]);
