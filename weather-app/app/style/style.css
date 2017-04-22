@@ -1,0 +1,8 @@
+body{
+    background-color: #6BB9F0;
+}
+
+@keyframes zoomIn {
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}

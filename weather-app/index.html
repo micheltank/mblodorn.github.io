@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test v1.0</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./app/vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./app/style/style.css">
+</head>
+<body ng-app="app">
+<div>
+    <div class="container">
+        <div ng-controller="weatherController">
+            <weather></weather>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- SCRIPTS -->
+<script src="./app/vendor/jquery/jquery.js" type="text/javascript"></script>
+<script src="./app/vendor/bootstrap/bootstrap.js" type="text/javascript"></script>
+<script src="./app/vendor/states/states.js" type="text/javascript"></script>
+<script src="./app/vendor/angular/angular.js" type="text/javascript"></script>
+<!-- APP -->
+<script src="./app/app.module.js" type="text/javascript"></script>
+
+<!-- COMPONENTS -->
+<!-- MIN-MAX -->
+<script src="app/components/min-max/min-max-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="app/components/min-max/min-max-style.css">
+<!-- LOADER -->
+<script src="./app/components/loader/loader-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/components/loader/loader-style.css">
+<!-- CLOUD -->
+<script src="./app/components/cloud/cloud-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/components/cloud/cloud-style.css">
+<!-- CHART -->
+<script src="./app/components/chart/chart-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/components/chart/chart-style.css">
+<!-- BEACH -->
+<script src="./app/components/beach/beach-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/components/beach/beach-style.css">
+<!--FORECAST-->
+<script src="./app/components/forecast/forecast-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/components/forecast/forecast-style.css">
+<!---->
+
+<!-- VIEWS -->
+<!-- HOME -->
+<script src="app/views/weather/weather-service.js" type="text/javascript"></script>
+<script src="app/views/weather/weather-controller.js" type="text/javascript"></script>
+<script src="app/views/weather/weather-directive.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./app/views/weather/weather-style.css">
+<!---->
+</body>
+</html>

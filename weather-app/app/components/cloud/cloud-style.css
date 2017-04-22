@@ -1,0 +1,11 @@
+.cloud{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    animation: move 10s linear infinite;
+}
+
+@keyframes move {
+    from{margin-left: -30%}
+    to{margin-left: 20%}
+}

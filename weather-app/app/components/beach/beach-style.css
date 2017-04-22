@@ -1,0 +1,13 @@
+.beach {
+    min-height: 200px;
+    animation: 0.5s zoomIn;
+    animation-fill-mode: forwards;
+}
+
+.beach .sunny-day{
+    background: radial-gradient(circle, #FDE3A7 14%, #F4B350 27%, #F39C12 67%);
+}
+
+.beach .rainy-day{
+    background: radial-gradient(circle, #59ABE3 14%, #4183D7 27%, #446CB3 67%);
+}

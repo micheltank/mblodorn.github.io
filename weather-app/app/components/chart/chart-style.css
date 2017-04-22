@@ -1,0 +1,249 @@
+.chart{
+    background-color: #3498DB;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: black;
+    font-size: 0.8em;
+    animation: 0.5s zoomIn;
+    animation-fill-mode: forwards;
+}
+
+.chart .chart-data{
+    bottom: -15px;
+    position: absolute;
+    text-align: center;
+}
+
+.chart.legend-1{
+    margin-left: 4%;
+    bottom: -15px;
+    position: absolute;
+}
+
+.chart .column{
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.chart .pos-1{
+    margin-left: 4%;
+}
+
+.chart .pos-2{
+    margin-left: 18%;
+}
+
+.chart .pos-3{
+    margin-left: 32%;
+}
+
+.chart .pos-4{
+    margin-left: 46%;
+}
+
+.chart .pos-5{
+    margin-left: 60%;
+}
+
+.chart .pos-6{
+    margin-left: 74%;
+}
+
+.chart .pos-7{
+    margin-left: 88%;
+}
+
+.chart .height-1{
+    height: 8%;
+}
+
+.chart .height-2{
+    height: 10%;
+}
+
+.chart .height-3{
+    height: 12%;
+}
+
+.chart .height-4{
+    height: 14%;
+}
+
+.chart .height-5{
+    height: 16%;
+}
+
+.chart .height-6{
+    height: 18%;
+}
+
+.chart .height-7{
+    height: 20%;
+}
+
+.chart .height-8{
+    height: 22%;
+}
+
+.chart .height-9{
+    height: 24%;
+}
+
+.chart .height-10{
+    height: 26%;
+}
+
+.chart .height-11{
+    height: 28%;
+}
+
+.chart .height-12{
+    height: 30%;
+}
+
+.chart .height-13{
+    height: 32%;
+}
+
+.chart .height-14{
+    height: 34%;
+}
+
+.chart .height-15{
+    height: 36%;
+}
+
+.chart .height-16{
+    height: 38%;
+}
+
+.chart .height-17{
+    height: 40%;
+}
+
+.chart .height-18{
+    height: 45%;
+}
+
+.chart .height-19{
+    height: 44%;
+}
+
+.chart .height-20{
+    height: 46%;
+}
+
+.chart .height-21{
+    height: 48%;
+}
+
+.chart .height-22{
+    height: 50%;
+}
+
+.chart .height-23{
+    height: 52%;
+}
+
+.chart .height-24{
+    height: 54%;
+}
+
+.chart .height-25{
+    height: 56%;
+}
+
+.chart .height-26{
+    height: 58%;
+}
+
+.chart .height-27{
+    height: 60%;
+}
+
+.chart .height-28{
+    height: 62%;
+}
+
+.chart .height-29{
+    height: 64%;
+}
+
+.chart .height-30{
+    height: 66%;
+}
+
+.chart .height-31{
+    height: 68%;
+}
+
+.chart .height-32{
+    height: 70%;
+}
+
+.chart .height-33{
+    height: 72%;
+}
+
+.chart .height-34{
+    height: 74%;
+}
+
+.chart .height-35{
+    height: 76%;
+}
+
+.chart .height-36{
+    height: 78%;
+}
+
+.chart .height-37{
+    height: 80%;
+}
+
+.chart .height-38{
+    height: 82%;
+}
+
+.chart .height-39{
+    height: 84%;
+}
+
+.chart .height-40{
+    height: 86%;
+}
+
+.chart .height-41{
+    height: 88%;
+}
+
+.chart .height-42{
+    height: 90%;
+}
+
+.chart .height-43{
+    height: 92%;
+}
+
+.chart .height-44{
+    height: 94%;
+}
+
+.chart .height-45{
+    height: 96%;
+}
+
+.chart .height-46{
+    height: 98%;
+}
+
+.chart .height-47{
+    height: 100%;
+}

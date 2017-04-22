@@ -1,0 +1,13 @@
+.min-max{
+    min-height: 200px;
+    animation: 0.5s zoomIn;
+    animation-fill-mode: forwards;
+}
+
+.min-max .min{
+    color: blue ;
+}
+
+.min-max .max{
+    color: red;
+}

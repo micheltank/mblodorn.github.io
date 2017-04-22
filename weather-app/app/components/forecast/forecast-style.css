@@ -1,0 +1,18 @@
+@media (min-width: 1000px){
+    .forecast{
+        width: 13%;
+        margin-left: 1.28%;
+        float: left;
+        animation: 0.5s zoomIn;
+        animation-fill-mode: forwards;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1000px){
+    .forecast{
+        width: 100%;
+        animation: 0.5s zoomIn;
+        animation-fill-mode: forwards;
+    }
+}
